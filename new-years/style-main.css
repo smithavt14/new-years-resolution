@@ -1,0 +1,90 @@
+/* Write some CSS below */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Overpass";
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Permanent Marker', cursive;
+  color: #456268;
+}
+
+h1 {
+  color: white;
+}
+
+.btn-green {
+  text-decoration: none;
+  color: #d0e8f2;
+  padding: 16px;
+  background-color: #456268;
+  border-radius: 4px;
+  transition: .25s;
+
+}
+
+.btn-green:hover {
+  background-color: #79a3b1;
+}
+
+.div-margin-bottom {
+  margin-bottom: 32px;
+}
+
+.banner {
+  padding: 80px 0 160px 0;
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  padding: 0 80px;
+}
+
+.card-white {
+  min-height: 400px;
+  width: 240px;
+  padding: 8px;
+  margin: 16px;
+  border-radius: 4px;
+  box-shadow: 4px 4px 8px rgba(0,0,0,0.25);
+  overflow: hidden;
+}
+
+.card-white > img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.footer {
+  padding: 80px;
+  background-color: #456268;
+  color: white;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
